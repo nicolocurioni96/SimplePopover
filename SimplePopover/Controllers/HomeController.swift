@@ -2,15 +2,17 @@
 //  HomeController.swift
 //  SimplePopover
 //
-//  Created by nicolocurioni on 18/01/23.
+//  Created by Nicolò Curioni on 18/01/23.
 //
 
 import UIKit
 
 class HomeController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = .systemTeal
         
     }
     
@@ -27,6 +29,7 @@ class HomeController: UIViewController {
             
             // The size you want to display
             popoverController.preferredContentSize = .init(width: 300, height: 100)
+            
             popover.delegate = self
         }
         

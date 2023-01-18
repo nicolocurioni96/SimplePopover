@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SimplePopover
 //
-//  Created by nicolocurioni on 18/01/23.
+//  Created by Nicolò Curioni on 18/01/23.
 //
 
 import UIKit
