@@ -13,6 +13,7 @@
 		A16EDA28297835A800F01DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16EDA27297835A800F01DC4 /* Assets.xcassets */; };
 		A16EDA2B297835A800F01DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EDA29297835A800F01DC4 /* LaunchScreen.storyboard */; };
 		A16EDA332978378F00F01DC4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EDA322978378F00F01DC4 /* HomeController.swift */; };
+		A16EDA3629783A7E00F01DC4 /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EDA3529783A7E00F01DC4 /* PopoverController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A16EDA2A297835A800F01DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16EDA2C297835A800F01DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16EDA322978378F00F01DC4 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A16EDA3529783A7E00F01DC4 /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				A16EDA1E297835A500F01DC4 /* AppDelegate.swift */,
 				A16EDA20297835A500F01DC4 /* SceneDelegate.swift */,
-				A16EDA322978378F00F01DC4 /* HomeController.swift */,
+				A16EDA3429783A5800F01DC4 /* Controllers */,
 				A16EDA24297835A500F01DC4 /* Main.storyboard */,
 				A16EDA27297835A800F01DC4 /* Assets.xcassets */,
 				A16EDA29297835A800F01DC4 /* LaunchScreen.storyboard */,
 				A16EDA2C297835A800F01DC4 /* Info.plist */,
 			);
 			path = SimplePopover;
+			sourceTree = "<group>";
+		};
+		A16EDA3429783A5800F01DC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A16EDA322978378F00F01DC4 /* HomeController.swift */,
+				A16EDA3529783A7E00F01DC4 /* PopoverController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16EDA332978378F00F01DC4 /* HomeController.swift in Sources */,
+				A16EDA3629783A7E00F01DC4 /* PopoverController.swift in Sources */,
 				A16EDA1F297835A500F01DC4 /* AppDelegate.swift in Sources */,
 				A16EDA21297835A500F01DC4 /* SceneDelegate.swift in Sources */,
 			);

@@ -21,12 +21,32 @@
                     <navigationItem key="navigationItem" title="Popover" largeTitleDisplayMode="always" id="OcW-QQ-cn0">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle" catalog="system" id="HWI-ZA-Zne">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="showPopover:" destination="BYZ-38-t0r" id="RST-42-ZcK"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="971.01449275362324" y="105.80357142857143"/>
+        </scene>
+        <!--Popover Controller-->
+        <scene sceneID="Wvb-7K-Lro">
+            <objects>
+                <viewController storyboardIdentifier="Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7fO-HU-i3X" customClass="PopoverController" customModule="SimplePopover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C1l-R9-7Ti">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GM9-wI-jNB"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TWH-74-61X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1601" y="40"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WmE-KD-6zN">
@@ -52,6 +72,9 @@
     </scenes>
     <resources>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
